@@ -1,8 +1,9 @@
-package websniffer;
+package websniffer.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import websniffer.Model.ExtractionCriteria;
+import websniffer.UrlExtractor;
 
 import java.util.ArrayList;
 
