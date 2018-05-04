@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mongodo:
+    image: mongo
+  activemq:
+    image: webcenter/activemq:latest
